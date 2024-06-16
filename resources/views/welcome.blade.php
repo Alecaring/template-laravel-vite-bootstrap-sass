@@ -8,6 +8,7 @@
     
 </head>
 <body>
+    <button class="btn btn-primary">Pulsante di esempio</button>
     <img src="{{ Vite::asset('resources/img/prova.webp') }}" alt="">
 </body>
 </html>
