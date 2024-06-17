@@ -218,6 +218,21 @@ Esegui il seeder per popolare il database:
 php artisan db:seed --class=NomeTabellaSeeder
 ```
 ___
+## Creazione Resource
+
+### 1. Creare il Controller --resource
+
+Il controller --resource gestisce le richieste HTTP. Esegui il seguente comando per creare un controller `--resource`:
+
+```bash
+php artisan make:controller ComicController --resource
+```
+### 2. Accedere alle liste
+
+```bash
+php artisan route:list
+```
+___
 ## Creazione delle API
 
 ### 1. Creare il Controller API
